@@ -1,0 +1,1 @@
+delete from libros where id_libro=12;
