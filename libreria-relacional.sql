@@ -1,6 +1,6 @@
 DROP DATABASE if exists biblioteca;
 # crear biblioteca base de datos
-CREATE DATABASE biblioteca;
+CREATE DATABASE biblioteca CHARACTER SET utf8mb4;
 # usar base de datos biblioteca para ingresar
 USE biblioteca;
 CREATE TABLE libros (
