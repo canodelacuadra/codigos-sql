@@ -1,4 +1,4 @@
-# https: / / josejuansanchez.org / bd / ejercicios - consultas - sql / index.html
+-- https: / / josejuansanchez.org / bd / ejercicios - consultas - sql / index.html
 DROP DATABASE IF EXISTS tienda;
 CREATE DATABASE tienda CHARACTER SET utf8mb4;
 USE tienda;
