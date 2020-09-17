@@ -1,1 +1,3 @@
-delete from libros where id_libro=12;
+select * from producto;
+delete from producto
+where codigo = 11;
