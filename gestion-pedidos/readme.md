@@ -5,13 +5,13 @@ Es una aplicación muy simple que luego se podría gestionar con php y html, css
 
 El proceso sería el siguiente
 
-1. Tenemos los productos
+1. Cargamos productos
 2. Registramos el usuario
-3. El usuario registra pedido
-4. El usuario detalla el pedido
-5. El usuario confirma el pedido
-6. El usuario ve el pedido con el precio total.
-7. El usuario ve un listado de todos los pedidos agrupados por pedido
+3. El usuario registra pedido con su id de usuario
+4. Detallamos el pedido con el id de usuario
+5. El usuario confirma el pedido con su id
+6. El usuario ve los detalles del pedido con el id pedido.
+7. El usuario ve un listado de todos los pedidos confirmados
 
 Lo gestionamos con las siguientes tablas: 
 
