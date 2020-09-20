@@ -1,5 +1,5 @@
 DROP DATABASE if exists mensajeria;
-CREATE DATABASE mensajeria DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE mensajeria DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 USE mensajeria;
 CREATE TABLE usuarios (
     id_usuario INT unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -16,6 +16,9 @@ VALUES (NUll, 'pepe'),
     (NUll, 'Ramón'),
     (NUll, 'Tomás'),
     (NUll, 'Humberto'),
+    (NUll, 'tono'),
+    (NUll, 'Toño'),
+    (NUll, 'Pepé'),
     (NUll, 'María del Monte');
 INSERT INTO mensajes
 VALUES 
@@ -44,6 +47,7 @@ from mensajes
 join usuarios
 on mensajes.id_usuario = usuarios.id_usuario
 ;
+show engines;
 
 -- Este no se borra
 delete from usuarios
